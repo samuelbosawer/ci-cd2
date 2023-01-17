@@ -2,7 +2,7 @@
 deployment:
   tasks:
   # Alamat directory hosting
-    - export DEPLOYPATH=/home/sakodeko/ci-cd2
+    - export DEPLOYPATH=/home/sakodeko/cicdtes.sacode.web.id/
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R fonts $DEPLOYPATH
