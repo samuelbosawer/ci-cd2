@@ -3,12 +3,13 @@ deployment:
   tasks:
   # Alamat directory hosting
     - export DEPLOYPATH=/home/sakodeko/cicdtes.sacode.web.id/
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp contact.html $DEPLOYPATH
     - /bin/cp cycle.html $DEPLOYPATH
     - /bin/cp news.html $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
+   
